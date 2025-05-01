@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 2,
+        "model": {
+          "type": "model",
+          "model": "siege:item/redbull"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/barrier"
+    }
+  }
+}
