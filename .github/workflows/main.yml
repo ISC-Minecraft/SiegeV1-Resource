@@ -11,13 +11,36 @@ jobs:
       contents: write
     steps:
     - uses: actions/checkout@master
-
     - name: Set Time
       env:
         TZ: 'Asia/Tokyo' # タイムゾーン指定
       run: echo "CURRENT_DATETIME=$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_ENV
     
     - run: echo "RELEASE_FILENAME=resource.zip" >> $GITHUB_ENV
+    
+    - name: Get Commit Hash
+      run: echo "COMMIT_HASH=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+    
+    - name: Update pack.mcmeta with Commit Hash
+      run: |
+        # jqコマンドをインストール
+        sudo apt-get update
+        sudo apt-get install -y jq
+        
+        # pack.mcmetaファイルが存在するか確認
+        if [ -f "pack.mcmeta" ]; then
+          # 現在の説明文を取得し、コミットハッシュを追加
+          CURRENT_DESC=$(jq -r '.pack.description' pack.mcmeta)
+          NEW_DESC="$CURRENT_DESC (commit: ${{ env.COMMIT_HASH }})"
+          
+          # pack.mcmetaファイルを更新
+          jq --arg desc "$NEW_DESC" '.pack.description = $desc' pack.mcmeta > pack.mcmeta.tmp
+          mv pack.mcmeta.tmp pack.mcmeta
+          
+          echo "Updated pack.mcmeta with commit hash: ${{ env.COMMIT_HASH }}"
+        else
+          echo "Warning: pack.mcmeta file not found"
+        fi
       
     - name: Archive Release
       uses: thedoctor0/zip-release@main
