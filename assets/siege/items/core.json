@@ -4,10 +4,31 @@
     "property": "custom_model_data",
     "entries": [
       {
+        "threshold": 0,
+        "model": {
+          "type": "model",
+          "model": "siege:item/featherlite"
+        }
+      },
+      {
         "threshold": 2,
         "model": {
           "type": "model",
           "model": "siege:item/redbull"
+        }
+      },
+      {
+        "threshold": 6.0,
+        "model": {
+          "type": "model",
+          "model": "siege:item/minigun"
+        }
+      },
+      {
+        "threshold": 6.1,
+        "model": {
+          "type": "model",
+          "model": "siege:item/minigun_onfire"
         }
       }
     ],
