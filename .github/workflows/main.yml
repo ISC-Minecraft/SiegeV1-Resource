@@ -32,7 +32,7 @@ jobs:
           # 現在の説明文を取得し、コミットハッシュを追加
           CURRENT_DESC=$(jq -r '.pack.description' pack.mcmeta)
           NEW_DESC="$CURRENT_DESC
-          #${{ env.COMMIT_HASH }}"
+        #${{ env.COMMIT_HASH }}"
           
           # pack.mcmetaファイルを更新
           jq --arg desc "$NEW_DESC" '.pack.description = $desc' pack.mcmeta > pack.mcmeta.tmp
