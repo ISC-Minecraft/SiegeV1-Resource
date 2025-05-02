@@ -4,17 +4,31 @@
     "property": "custom_model_data",
     "entries": [
       {
-        "threshold": 0,
-        "model": {
-          "type": "model",
-          "model": "siege:item/featherlite"
-        }
-      },
-      {
-        "threshold": 2,
+        "threshold": 99,
         "model": {
           "type": "model",
           "model": "siege:item/redbull"
+        }
+      },
+      {
+        "threshold": 3.0,
+        "model": {
+          "type": "model",
+          "model": "siege:item/m1garand"
+        }
+      },
+      {
+        "threshold": 3.1,
+        "model": {
+          "type": "model",
+          "model": "siege:item/m1garand_crouch"
+        }
+      },
+      {
+        "threshold": 5.0,
+        "model": {
+          "type": "model",
+          "model": "siege:item/anchor"
         }
       },
       {
@@ -29,6 +43,13 @@
         "model": {
           "type": "model",
           "model": "siege:item/minigun_onfire"
+        }
+      },
+      {
+        "threshold": 6.9,
+        "model": {
+          "type": "model",
+          "model": "siege:item/gear_3"
         }
       }
     ],
