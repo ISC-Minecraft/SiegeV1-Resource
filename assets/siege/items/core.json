@@ -25,6 +25,20 @@
         }
       },
       {
+        "threshold": 3.2,
+        "model": {
+          "type": "model",
+          "model": "siege:item/ntw-20"
+        }
+      },
+      {
+        "threshold": 3.3,
+        "model": {
+          "type": "model",
+          "model": "siege:item/ntw-20_crouch"
+        }
+      },
+      {
         "threshold": 5.0,
         "model": {
           "type": "model",
