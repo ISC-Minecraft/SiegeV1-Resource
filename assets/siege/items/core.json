@@ -65,6 +65,13 @@
           "type": "model",
           "model": "siege:item/gear_3"
         }
+      },
+      {
+        "threshold": 11.2,
+        "model": {
+          "type": "model",
+          "model": "siege:item/grenade"
+        }
       }
     ],
     "fallback": {
