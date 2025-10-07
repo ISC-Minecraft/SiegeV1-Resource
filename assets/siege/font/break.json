@@ -2,7 +2,7 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "siege:font/maple/0_5.png",
+      "file": "siege:font/break/0_5.png",
       "ascent": 11,
       "height": 12,
       "chars": [
@@ -12,7 +12,7 @@
     },
     {
       "type": "bitmap",
-      "file": "siege:font/maple/6_9.png",
+      "file": "siege:font/break/6_9.png",
       "ascent": 11,
       "height": 12,
       "chars": [
@@ -22,7 +22,7 @@
     },
     {
       "type": "bitmap",
-      "file": "siege:font/maple/dot.png",
+      "file": "siege:font/break/dot.png",
       "ascent": 11,
       "height": 12,
       "chars": [
