@@ -1,0 +1,34 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "siege:font/kurobara/0_5.png",
+      "ascent": 11,
+      "height": 12,
+      "chars": [
+        "012",
+        "345"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "siege:font/kurobara/6_9.png",
+      "ascent": 11,
+      "height": 12,
+      "chars": [
+        "678",
+        "9^^"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "siege:font/kurobara/dot.png",
+      "ascent": 11,
+      "height": 12,
+      "chars": [
+        ".^^^^^",
+        "^^^^^^"
+      ]
+    }
+  ]
+}
