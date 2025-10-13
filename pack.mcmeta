@@ -1,6 +1,8 @@
 {
-  "pack" :{
-    "pack_format": 64,
+  "pack": {
+    "pack_format": 65,
+    "min_format": 65,
+    "max_format": 2147483647,
     "description": "攻城戦用リソースパック"
   }
 }
