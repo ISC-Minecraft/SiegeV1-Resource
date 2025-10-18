@@ -156,6 +156,90 @@
           "type": "model",
           "model": "siege:item/accessory/34"
         }
+      },
+      {
+        "threshold": 1000,
+        "model": {
+          "type": "model",
+          "model": "siege:item/accessory/1000"
+        }
+      },
+      {
+        "threshold": 1001,
+        "model": {
+          "type": "model",
+          "model": "siege:item/accessory/1001"
+        }
+      },
+      {
+        "threshold": 1002,
+        "model": {
+          "type": "model",
+          "model": "siege:item/accessory/1002"
+        }
+      },
+      {
+        "threshold": 1003,
+        "model": {
+          "type": "model",
+          "model": "siege:item/accessory/1003"
+        }
+      },
+      {
+        "threshold": 1100,
+        "model": {
+          "type": "model",
+          "model": "siege:item/accessory/1100"
+        }
+      },
+      {
+        "threshold": 1101,
+        "model": {
+          "type": "model",
+          "model": "siege:item/accessory/1101"
+        }
+      },
+      {
+        "threshold": 1102,
+        "model": {
+          "type": "model",
+          "model": "siege:item/accessory/1102"
+        }
+      },
+      {
+        "threshold": 1103,
+        "model": {
+          "type": "model",
+          "model": "siege:item/accessory/1103"
+        }
+      },
+      {
+        "threshold": 1200,
+        "model": {
+          "type": "model",
+          "model": "siege:item/accessory/1200"
+        }
+      },
+      {
+        "threshold": 1201,
+        "model": {
+          "type": "model",
+          "model": "siege:item/accessory/1201"
+        }
+      },
+      {
+        "threshold": 1202,
+        "model": {
+          "type": "model",
+          "model": "siege:item/accessory/1202"
+        }
+      },
+      {
+        "threshold": 1203,
+        "model": {
+          "type": "model",
+          "model": "siege:item/accessory/1203"
+        }
       }
     ],
     "fallback": {
