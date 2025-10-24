@@ -2,32 +2,32 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "siege:font/maple/0_5.png",
+      "file": "siege:font/maple/maple_f1.png",
       "ascent": 11,
       "height": 12,
       "chars": [
-        "012",
-        "345"
+        "01",
+        "23"
       ]
     },
     {
       "type": "bitmap",
-      "file": "siege:font/maple/6_9.png",
+      "file": "siege:font/maple/maple_f2.png",
       "ascent": 11,
       "height": 12,
       "chars": [
-        "678",
-        "9^^"
+        "45",
+        "67"
       ]
     },
     {
       "type": "bitmap",
-      "file": "siege:font/maple/dot.png",
+      "file": "siege:font/maple/maple_f3.png",
       "ascent": 11,
       "height": 12,
       "chars": [
-        ".^^^^^",
-        "^^^^^^"
+        "89",
+        "^^"
       ]
     }
   ]
